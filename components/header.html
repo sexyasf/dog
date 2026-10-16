@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="mx-auto w-[390px] flex justify-between xl:w-[1280px] h-[64px]">
+      <div class="flex">
+      <div class="flex gap-[6px] pl-[24px] items-center">
+        <img class="w-[32px] h-[32px]" src="paw.png" />
+        <div">
+          <h1 class="text-[22px] font-semibold text-[rgba(141,75,0,1)]">Dog Explorer</h1>
+          <p class="text-[11px] font-normal text-[rgba(85,67,54,1)] xl:hidden">Discover</p>
+        </div>
+      </div>
+      <div class="flex pr-[24px] justify-center items-center gap-[16px]">
+        <i class="w-[16px] h-[16px] xl:hidden" data-lucide="search"></i>
+        <i class="w-[20px] h-[20px]" data-lucide="sun"></i>
+      </div>
+    </div>
+    </div>
+    <script src="header.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
